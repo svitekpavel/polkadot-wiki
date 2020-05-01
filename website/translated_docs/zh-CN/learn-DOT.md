@@ -58,7 +58,7 @@ Vesting schedules have three parameters, `locked`, `per_block`, and `starting_bl
 
 #### Lazy Vesting
 
-Like [lazy payouts](learn-lazy-payouts), vesting is _lazy_, which means that someone must explicitly call an extrinsic to update the lock that is placed on an account.
+Like [simple payouts](learn-simple-payouts), vesting is _lazy_, which means that someone must explicitly call an extrinsic to update the lock that is placed on an account.
 
 - The `vest` extrinsic will update the lock that is placed on the caller.
 - The `vest_other` will update the lock that is placed on another "target" account's funds.

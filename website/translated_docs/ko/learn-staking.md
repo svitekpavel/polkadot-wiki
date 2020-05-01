@@ -146,7 +146,7 @@ Note that Kusama runs approximately 4x as fast as Polkadot, except for block pro
 
 Rewards are recorded per session (approximately one hour on Kusama and four hours on Polkadot) and calculated per era (approximately six hours on Kusama and twenty-four hours on Polkadot). Thus, rewards will be calculated four times per day on Kusama and once per day on Polkadot.
 
-In order to be paid your staking rewards, you must manually claim them. Staking rewards are kept available for 84 eras, which is approximately 84 days on Polkadot and 21 days on Kusama. For more information on why this is so, see the page on [lazy payouts](learn-lazy-payouts).
+In order to be paid your staking rewards, you must manually claim them. Staking rewards are kept available for 84 eras, which is approximately 84 days on Polkadot and 21 days on Kusama. For more information on why this is so, see the page on [simple payouts](learn-simple-payouts).
 
 > WARNING: If you do not claim your staking rewards by this time, then you will not be able to claim them and some of your staking rewards will be lost.
 

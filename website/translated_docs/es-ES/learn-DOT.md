@@ -52,13 +52,13 @@ Vesting funds are on a linear release schedule and unlock a constant number of t
 There are two ways that vesting schedules can be created.
 
 - One way is as part of the genesis configuration of the chain. In the case of Polkadot and Kusama, the chain specification genesis script reads the state of the Polkadot Claims contract that exists on the Ethereum blockchain and creates vesting schedules in genesis for all the allocations registered as being vested.
-- A second way is through an extrinsic type available in the Vesting pallet, `vested_transfer`. The vested transfer function allows anyone to create a vesting schedule with a transfer of funds, as long as 1) the account for which the vesting schedule will be created does not already have one and 2) the transfer moves at least `MinVestedTransfer` funds, which is specified as a chain constant.
+- A second way is through an extrinsic type available in the Vesting pallet, `vested_transfer`. The vested transfer function allows anyone to create a vesting schedule with a transfer of funds, as long as the account for which the vesting schedule will be created does not already have one and the transfer moves at least `MinVestedTransfer` funds, which is specified as a chain constant.
 
 Vesting schedules have three parameters, `locked`, `per_block`, and `starting_block`. The configuration of these three fields dictate the amount of funds that are originally locked, the slope of the unlock line, and the block number for when the unlocking begins.
 
 #### Lazy Vesting
 
-Like [lazy payouts](learn-lazy-payouts), vesting is _lazy_, which means that someone must explicitly call an extrinsic to update the lock that is placed on an account.
+Like [simple payouts](learn-simple-payouts), vesting is _lazy_, which means that someone must explicitly call an extrinsic to update the lock that is placed on an account.
 
 - The `vest` extrinsic will update the lock that is placed on the caller.
 - The `vest_other` will update the lock that is placed on another "target" account's funds.

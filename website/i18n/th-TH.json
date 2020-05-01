@@ -201,9 +201,9 @@
         "title": "Polkadot Keys",
         "sidebar_label": "Polkadot Keys"
       },
-      "learn-lazy-payouts": {
-        "title": "Lazy Payouts",
-        "sidebar_label": "Lazy Payouts"
+      "learn-simple-payouts": {
+        "title": "Simple Payouts",
+        "sidebar_label": "Simple Payouts"
       },
       "learn-parachains": {
         "title": "Parachains",

@@ -201,9 +201,9 @@
         "title": "폴카닷 키들",
         "sidebar_label": "폴카닷 키들"
       },
-      "learn-lazy-payouts": {
-        "title": "Lazy Payouts",
-        "sidebar_label": "Lazy Payouts"
+      "learn-simple-payouts": {
+        "title": "Simple Payouts",
+        "sidebar_label": "Simple Payouts"
       },
       "learn-parachains": {
         "title": "패러체인 (Parachains)",

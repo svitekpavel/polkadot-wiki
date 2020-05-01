@@ -1,5 +1,5 @@
 ---
-id: learn-lazy-payouts
+id: learn-simple-payouts
 title: Lazy Payouts
 sidebar_label: Lazy Payouts
 ---

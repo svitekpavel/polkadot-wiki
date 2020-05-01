@@ -201,9 +201,9 @@
         "title": "密匙",
         "sidebar_label": "密匙"
       },
-      "learn-lazy-payouts": {
-        "title": "Lazy Payouts",
-        "sidebar_label": "Lazy Payouts"
+      "learn-simple-payouts": {
+        "title": "Simple Payouts",
+        "sidebar_label": "Simple Payouts"
       },
       "learn-parachains": {
         "title": "平行链",
